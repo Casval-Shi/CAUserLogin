@@ -102,6 +102,16 @@ public class FileUserDataAccessObject implements SignupUserDataAccessInterface,
 
     }
 
+    /**
+     * This class handles user-related actions in the system.
+     *
+     * @return the
+     */
+    @Override
+    public String getCurrentUser() {
+        return "";
+    }
+
     @Override
     public boolean existsByName(String identifier) {
         return accounts.containsKey(identifier);
